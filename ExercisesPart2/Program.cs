@@ -72,70 +72,181 @@
 
             /* ------------------------------- 2. Basic ATM System  --------------------------------*/
 
-            double balance =1000, newBalance=0, withdraw=0, deposit=0;
-            int op;
+            //double balance =1000, newBalance=0, withdraw=0, deposit=0;
+            //int op;
 
-            do
-            {
-                
+            //do
+            //{
 
-                Console.WriteLine("Enter number of opreation \n" +
-                    "1: Withdraw Money \n" +
-                    "2: Deposit Money \n" +
-                    "3: Check Balance \n" +
-                    "4: Exit \n");
-                op = int.Parse(Console.ReadLine());
 
-                switch (op)
+            //    Console.WriteLine("Enter number of opreation \n" +
+            //        "1: Withdraw Money \n" +
+            //        "2: Deposit Money \n" +
+            //        "3: Check Balance \n" +
+            //        "4: Exit \n");
+            //    op = int.Parse(Console.ReadLine());
+
+            //    switch (op)
+            //    {
+
+
+
+            //        case 1:
+            //            Console.WriteLine("Enter amount of money you want to withdraw");
+            //            withdraw= double.Parse(Console.ReadLine());
+
+            //            if (withdraw<balance)
+            //            {
+            //                newBalance = balance - withdraw;
+            //                Console.WriteLine("New balance= " + newBalance );
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("You are brooooock ");
+
+            //            }
+
+            //            break;
+
+            //        case 2:
+            //            Console.WriteLine("Enter amount of money you want to Deposit");
+            //            deposit = double.Parse(Console.ReadLine());
+
+            //            newBalance = balance + deposit;
+            //            Console.WriteLine("New balance= " + newBalance);
+
+            //            break;
+
+            //        case 3:
+            //            Console.WriteLine("Your balance= " + newBalance);
+            //            break;
+
+            //        case 4:
+            //            Console.WriteLine("Thank you");
+
+            //            break;
+
+
+            //        default:
+            //            Console.WriteLine("Enter Correct number!!!!!!!");
+            //            break;
+
+            //    }Console.WriteLine("\nAnother opreation? \n");
+
+
+            //}
+            //while (op != 4);
+
+
+
+
+            /* ------------------------------- 3. Geometry Calculator  --------------------------------*/
+
+            ////Declartion for Circle 
+            //double circumference, areaC, radiusC;
+
+            ////Declartion for Square
+            //double sideS, areaS, perimeterS;
+
+            ////Declartion for Triangle
+            //double baseT, heightT, areaT;
+
+            //int op;
+
+            //do
+            //{
+
+
+            //    Console.WriteLine("Enter number of shape you want \n" +
+            //        "1: Circle (Calculate Area & Circumference) \n" +
+            //        "2: Square (Calculate Area & Perimeter) \n" +
+            //        "3: Triangle (Calculate Area) \n" +
+            //        "4: Exit \n");
+            //    op = int.Parse(Console.ReadLine());
+
+            //    switch (op)
+            //    {
+
+            //        case 1:
+            //            Console.WriteLine("Enter Radius");
+            //            radiusC = double.Parse(Console.ReadLine());
+
+            //            areaC = 3.14 * Math.Pow(radiusC,2);
+            //            Console.WriteLine("Area of Circle is " + areaC);
+
+            //            circumference = 2* 3.14 * radiusC;
+            //            Console.WriteLine("Circumference of Circle is " + circumference);
+
+            //            break;
+
+            //        case 2:
+            //            Console.WriteLine("Enter Side");
+            //            sideS = double.Parse(Console.ReadLine());
+
+            //            areaS = Math.Pow(sideS, 2);
+            //            Console.WriteLine("Area of Square is " + areaS);
+
+            //            perimeterS = 4 * sideS;
+            //            Console.WriteLine("Perimeter of Square is " + perimeterS);
+
+            //            break;
+
+            //        case 3:
+            //            Console.WriteLine("Enter Base");
+            //            baseT = double.Parse(Console.ReadLine());
+
+
+            //            Console.WriteLine("Enter Height");
+            //            heightT = double.Parse(Console.ReadLine());
+
+
+            //            areaT = 0.5 * baseT * heightT;
+            //            Console.WriteLine("Area of Triangle is " + areaT);
+
+
+            //            break;
+
+            //        case 4:
+            //            Console.WriteLine("Thank you");
+
+            //            break;
+
+
+            //        default:
+            //            Console.WriteLine("Enter Correct number!!!!!!!");
+            //            break;
+
+            //    }
+            //    Console.WriteLine("\nAnother opreation? \n");
+
+
+            //}
+            //while (op != 4);
+
+
+            /* ------------------------------- 4. Factorial of a Number   --------------------------------*/
+            int num,i;
+            double f = 1;
+
+            Console.WriteLine("Enter A number");
+            num = int.Parse(Console.ReadLine());
+
+
+           
+         
+                for (i = 1; i <= num; i++)
                 {
+                    f = f * i;
+                }
 
-
-
-                    case 1:
-                        Console.WriteLine("Enter amount of money you want to withdraw");
-                        withdraw= double.Parse(Console.ReadLine());
-
-                        if (withdraw<balance)
-                        {
-                            newBalance = balance - withdraw;
-                            Console.WriteLine("New balance= " + newBalance );
-                        }
-                        else
-                        {
-                            Console.WriteLine("You are brooooock ");
-
-                        }
-
-                        break;
-
-                    case 2:
-                        Console.WriteLine("Enter amount of money you want to Deposit");
-                        deposit = double.Parse(Console.ReadLine());
-
-                        newBalance = balance + deposit;
-                        Console.WriteLine("New balance= " + newBalance);
-
-                        break;
-
-                    case 3:
-                        Console.WriteLine("Your balance= " + newBalance);
-                        break;
-
-                    case 4:
-                        Console.WriteLine("Thank you");
-
-                        break;
-
-
-                    default:
-                        Console.WriteLine("Enter Correct number!!!!!!!");
-                        break;
-
-                }Console.WriteLine("\nAnother opreation? \n");
+              
             
-                
-            }
-            while (op != 4);
+            Console.WriteLine("Factorial of " + num + " is " + f);
+
+
+
+
+
         }
     }
 }

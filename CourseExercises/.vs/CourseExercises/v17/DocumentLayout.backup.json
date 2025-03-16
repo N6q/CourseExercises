@@ -29,7 +29,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExercisesPart2",
+              "Title": "ExercisesPart2.csproj",
               "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\ExercisesPart2.csproj",
               "RelativeDocumentMoniker": "..\\ExercisesPart2\\ExercisesPart2.csproj",
               "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\ExercisesPart2.csproj",
@@ -45,9 +45,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\Program.cs",
               "RelativeDocumentMoniker": "..\\ExercisesPart2\\Program.cs",
-              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\Program.cs",
-              "RelativeToolTip": "..\\ExercisesPart2\\Program.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAkwIkAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\Program.cs*",
+              "RelativeToolTip": "..\\ExercisesPart2\\Program.cs*",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAwPAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T05:41:28.475Z",
               "EditorCaption": ""
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\CourseExercises\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAIwNEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T05:31:38.554Z",
               "EditorCaption": ""
