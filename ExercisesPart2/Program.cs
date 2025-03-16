@@ -225,27 +225,48 @@
 
 
             /* ------------------------------- 4. Factorial of a Number   --------------------------------*/
-            int num,i;
-            double f = 1;
+            //int num,i;
+            //double f = 1;
 
-            Console.WriteLine("Enter A number");
-            num = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter A number");
+            //num = int.Parse(Console.ReadLine());
 
 
            
          
-                for (i = 1; i <= num; i++)
-                {
-                    f = f * i;
-                }
+            //    for (i = 1; i <= num; i++)
+            //    {
+            //        f = f * i;
+            //    }
 
               
             
-            Console.WriteLine("Factorial of " + num + " is " + f);
+            //Console.WriteLine("Factorial of " + num + " is " + f);
 
+            /* ------------------------------- 5. Sum of Even and Odd Numbers   --------------------------------*/
 
+            double num, evenSum=0, oddSum=0;
+            int i=1;
 
+            Console.WriteLine("Enter number");
+            num = double.Parse(Console.ReadLine());
 
+            do
+            {
+                if (i % 2 == 0)
+                {
+                    evenSum += i;
+                }
+                else
+                {
+                    oddSum +=i;
+                }
+                i++;
+            }
+            while (i<=num);
+
+            Console.WriteLine("The sum of Even is " + evenSum);
+            Console.WriteLine("\nThe sum of Odd is " + oddSum);
 
         }
     }
