@@ -13,11 +13,11 @@
             //{
             //    Console.Clear();
 
-            //Console.WriteLine("Enter number of operator \n" +
-            //    "1: + \n" +
-            //    "2: - \n" +
-            //    "3: * \n" +
-            //    "4: / \n");
+            //    Console.WriteLine("Enter number of operator \n" +
+            //        "1: + \n" +
+            //        "2: - \n" +
+            //        "3: * \n" +
+            //        "4: / \n");
             //    op = int.Parse(Console.ReadLine());
 
 
@@ -232,42 +232,131 @@
             //num = int.Parse(Console.ReadLine());
 
 
-           
-         
+
+
             //    for (i = 1; i <= num; i++)
             //    {
             //        f = f * i;
             //    }
 
-              
-            
+
+
             //Console.WriteLine("Factorial of " + num + " is " + f);
 
             /* ------------------------------- 5. Sum of Even and Odd Numbers   --------------------------------*/
 
-            double num, evenSum=0, oddSum=0;
-            int i=1;
+            //double num, evenSum=0, oddSum=0;
+            //int i=1;
 
-            Console.WriteLine("Enter number");
-            num = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter number");
+            //num = double.Parse(Console.ReadLine());
+
+            //do
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        evenSum += i;
+            //    }
+            //    else
+            //    {
+            //        oddSum +=i;
+            //    }
+            //    i++;
+            //}
+            //while (i<=num);
+
+            //Console.WriteLine("The sum of Even is " + evenSum);
+            //Console.WriteLine("\nThe sum of Odd is " + oddSum);
+
+
+
+            /* ------------------------------- 6. Scientific Calculator (Switch-Case & Math Functions)  --------------------------------*/
+
+            double num1, num2, result=0;
+            int op;
+            string choicee;
 
             do
             {
-                if (i % 2 == 0)
+                
+
+                Console.WriteLine("Enter number of operator \n" +
+                    "1: sin \n" +
+                    "2: cos \n" +
+                    "3: tan \n" +
+                    "4: sqrt \n" +
+                    "5: log \n" +
+                    "6: pow \n");
+                op = int.Parse(Console.ReadLine());
+
+
+                Console.WriteLine("Enter Number");
+                num1 = double.Parse(Console.ReadLine());
+
+
+
+
+
+                switch (op)
                 {
-                    evenSum += i;
+                    case 1:
+                        result = Math.Sin(num1);
+                        Console.WriteLine("The Result: "+ result);
+                        break;
+
+                    case 2:
+                        result = Math.Cos(num1);
+                        Console.WriteLine("The Result: " + result);
+                        break;
+
+                    case 3:
+                        result = Math.Tan(num1);
+                        Console.WriteLine("The Result: "  + result);
+                        break;
+
+                    case 4:                 
+                            result = Math.Sqrt(num1);
+                            Console.WriteLine("The Result: " + result);
+                       
+                        break;
+
+                    case 5:
+                        result = Math.Log(num1);
+                        Console.WriteLine("The Result: " + result);
+
+                        break;
+
+                    case 6:
+
+                        Console.WriteLine("Enter Power");
+                        num2 = double.Parse(Console.ReadLine());
+
+                        result = Math.Pow(num1,num2);
+                        Console.WriteLine("The Result: " + result);
+
+                        break;
+
+                    default:
+                        Console.WriteLine("Enter Correct Operator!!!!!!!");
+                        break;
+
+                }
+                Console.WriteLine("Use again? (y/n)");
+                choicee = Console.ReadLine();
+
+                if (choicee=="y")
+                {
+                    Console.Clear();
                 }
                 else
                 {
-                    oddSum +=i;
+                    break;
                 }
-                i++;
+
+
+
             }
-            while (i<=num);
-
-            Console.WriteLine("The sum of Even is " + evenSum);
-            Console.WriteLine("\nThe sum of Odd is " + oddSum);
-
+            while (op != 6);
         }
     }
 }
