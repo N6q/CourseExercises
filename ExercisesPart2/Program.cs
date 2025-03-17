@@ -365,21 +365,60 @@
 
             /* ------------------------------- 7. Print Pattern (For Loop) --------------------------------*/
 
-            int num1;
-            Console.WriteLine("Enter Number");
-            num1 = int.Parse(Console.ReadLine());
+            //int num1;
+            //Console.WriteLine("Enter Number");
+            //num1 = int.Parse(Console.ReadLine());
 
-            for (int i = 0;num1 >= i ; i++ )
-            {
+            //for (int i = 0 ; num1 >= i ; i++ )
+            //{
 
-                for(int s=0; s <= i; s++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine(" ");
-            }
+            //    for(int s = 0 ; s <= i ; s++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine(" ");
+            //}
 
 
+
+            /* ------------------------------- 8. Print a Pyramid Pattern (For Loop --------------------------------*/
+
+            //int n;
+            //Console.WriteLine("Enter Number");
+            //n = int.Parse(Console.ReadLine());
+
+
+            //for (int i = 1; i <= n; i++)
+            //{
+
+            //    for (int j = 1; j <= n - i; j++) 
+            //    { 
+            //        Console.Write(" "); 
+            //    }
+
+            //    for (int k = 1; k <= 2 * i - 1; k++) 
+            //    { 
+            //        Console.Write("*"); 
+            //    }
+
+            //    Console.WriteLine(); 
+
+            //}
+
+            //for (int i = n-1; i >= 1; i--)
+            //{
+            //    for (int j = 1; j <= n - i; j++) 
+            //    {
+            //        Console.Write(" "); 
+            //    }
+
+            //    for (int k = 1; k <= 2 * i - 1; k++) 
+            //    { 
+            //        Console.Write("*"); 
+            //    }
+
+            //    Console.WriteLine();
+            //}
 
 
 
