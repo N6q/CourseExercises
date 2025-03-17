@@ -4,13 +4,6 @@
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{09097EC1-CB28-4239-BE5D-9A15F9A43251}|..\\ExercisesPart2\\ExercisesPart2.csproj|c:\\users\\codeline\\desktop\\courseexercises\\exercisespart2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09097EC1-CB28-4239-BE5D-9A15F9A43251}|..\\ExercisesPart2\\ExercisesPart2.csproj|c:\\users\\codeline\\desktop\\courseexercises\\exercisespart2\\exercisespart2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF37A85F-6C71-4F04-97A0-37DA6085FBA9}|ExercisesPart1.csproj|c:\\users\\codeline\\desktop\\courseexercises\\courseexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF37A85F-6C71-4F04-97A0-37DA6085FBA9}|ExercisesPart1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,23 +13,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExercisesPart2.csproj",
-              "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\ExercisesPart2.csproj",
-              "RelativeDocumentMoniker": "..\\ExercisesPart2\\ExercisesPart2.csproj",
-              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\ExercisesPart2.csproj",
-              "RelativeToolTip": "..\\ExercisesPart2\\ExercisesPart2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T06:08:14.424Z"
             },
             {
               "$type": "Document",
@@ -46,22 +27,10 @@
               "RelativeDocumentMoniker": "..\\ExercisesPart2\\Program.cs",
               "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExercisesPart2\\Program.cs",
               "RelativeToolTip": "..\\ExercisesPart2\\Program.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAowCYBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAowHEBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T05:41:28.475Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\CourseExercises\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\CourseExercises\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T05:31:38.554Z"
             }
           ]
         }

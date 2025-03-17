@@ -272,91 +272,118 @@
 
             /* ------------------------------- 6. Scientific Calculator (Switch-Case & Math Functions)  --------------------------------*/
 
-            double num1, num2, result=0;
-            int op;
-            string choicee;
+            //double num1, num2, result=0;
+            //int op;
+            //string choicee;
 
-            do
+            //do
+            //{
+
+
+            //    Console.WriteLine("Enter number of operator \n" +
+            //        "1: sin \n" +
+            //        "2: cos \n" +
+            //        "3: tan \n" +
+            //        "4: sqrt \n" +
+            //        "5: log \n" +
+            //        "6: pow \n");
+            //    op = int.Parse(Console.ReadLine());
+
+
+            //    Console.WriteLine("Enter Number");
+            //    num1 = double.Parse(Console.ReadLine());
+
+
+
+
+
+            //    switch (op)
+            //    {
+            //        case 1:
+            //            result = Math.Sin(num1);
+            //            Console.WriteLine("The Result: "+ result);
+            //            break;
+
+            //        case 2:
+            //            result = Math.Cos(num1);
+            //            Console.WriteLine("The Result: " + result);
+            //            break;
+
+            //        case 3:
+            //            result = Math.Tan(num1);
+            //            Console.WriteLine("The Result: "  + result);
+            //            break;
+
+            //        case 4:                 
+            //                result = Math.Sqrt(num1);
+            //                Console.WriteLine("The Result: " + result);
+
+            //            break;
+
+            //        case 5:
+            //            result = Math.Log(num1);
+            //            Console.WriteLine("The Result: " + result);
+
+            //            break;
+
+            //        case 6:
+
+            //            Console.WriteLine("Enter Power");
+            //            num2 = double.Parse(Console.ReadLine());
+
+            //            result = Math.Pow(num1,num2);
+            //            Console.WriteLine("The Result: " + result);
+
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("Enter Correct Operator!!!!!!!");
+            //            break;
+
+            //    }
+            //    Console.WriteLine("Use again? (y/n)");
+            //    choicee = Console.ReadLine();
+
+            //    if (choicee=="y")
+            //    {
+            //        Console.Clear();
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+
+
+
+            //}
+            //while (op != 6);
+
+
+
+
+
+
+            /* ------------------------------- 7. Print Pattern (For Loop) --------------------------------*/
+
+            int num1;
+            Console.WriteLine("Enter Number");
+            num1 = int.Parse(Console.ReadLine());
+
+            for (int i = 0;num1 >= i ; i++ )
             {
-                
 
-                Console.WriteLine("Enter number of operator \n" +
-                    "1: sin \n" +
-                    "2: cos \n" +
-                    "3: tan \n" +
-                    "4: sqrt \n" +
-                    "5: log \n" +
-                    "6: pow \n");
-                op = int.Parse(Console.ReadLine());
-
-
-                Console.WriteLine("Enter Number");
-                num1 = double.Parse(Console.ReadLine());
-
-
-
-
-
-                switch (op)
+                for(int s=0; s <= i; s++)
                 {
-                    case 1:
-                        result = Math.Sin(num1);
-                        Console.WriteLine("The Result: "+ result);
-                        break;
-
-                    case 2:
-                        result = Math.Cos(num1);
-                        Console.WriteLine("The Result: " + result);
-                        break;
-
-                    case 3:
-                        result = Math.Tan(num1);
-                        Console.WriteLine("The Result: "  + result);
-                        break;
-
-                    case 4:                 
-                            result = Math.Sqrt(num1);
-                            Console.WriteLine("The Result: " + result);
-                       
-                        break;
-
-                    case 5:
-                        result = Math.Log(num1);
-                        Console.WriteLine("The Result: " + result);
-
-                        break;
-
-                    case 6:
-
-                        Console.WriteLine("Enter Power");
-                        num2 = double.Parse(Console.ReadLine());
-
-                        result = Math.Pow(num1,num2);
-                        Console.WriteLine("The Result: " + result);
-
-                        break;
-
-                    default:
-                        Console.WriteLine("Enter Correct Operator!!!!!!!");
-                        break;
-
+                    Console.Write("*");
                 }
-                Console.WriteLine("Use again? (y/n)");
-                choicee = Console.ReadLine();
-
-                if (choicee=="y")
-                {
-                    Console.Clear();
-                }
-                else
-                {
-                    break;
-                }
-
-
-
+                Console.WriteLine(" ");
             }
-            while (op != 6);
+
+
+
+
+
+
         }
     }
 }
