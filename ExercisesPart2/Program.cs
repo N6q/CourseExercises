@@ -381,7 +381,34 @@
 
 
 
-            /* ------------------------------- 8. Print a Pyramid Pattern (For Loop --------------------------------*/
+            /* ------------------------------- 8. Print a Pyramid Pattern (For Loop) --------------------------------*/
+
+            //int n;
+            //Console.WriteLine("Enter Number");
+            //n = int.Parse(Console.ReadLine());
+
+
+            //for (int i = 1; i <= n; i++)
+            //{
+
+            //    for (int j = 1; j <= n - i; j++) 
+            //    { 
+            //        Console.Write(" "); 
+            //    }
+
+            //    for (int k = 1; k <= 2 * i - 1; k++) 
+            //    { 
+            //        Console.Write("*"); 
+            //    }
+
+            //    Console.WriteLine(); 
+
+            //}
+
+
+
+
+            /* ------------------------------- 9. Print a Diamond Pattern (For Loop) --------------------------------*/
 
             //int n;
             //Console.WriteLine("Enter Number");
@@ -420,8 +447,36 @@
             //    Console.WriteLine();
             //}
 
+            /* ------------------------------- 10. Guess Game with helper  --------------------------------*/
+
+            int RandomNum, InputNum = 0;
+
+            Random rn = new Random();
+            RandomNum = rn.Next(1, 100);
 
 
+          
+
+
+            while (RandomNum != InputNum)
+            { 
+                Console.WriteLine("Enter number from 1 to 100");
+                
+                InputNum = int.Parse(Console.ReadLine());
+             
+                if (InputNum > RandomNum)
+                {
+                    Console.WriteLine("Try Lower!");
+                }
+                else if (InputNum < RandomNum)
+                {
+                    Console.WriteLine("Try Higher!");
+                }
+                else
+                {
+                    Console.WriteLine("You win!");
+                }
+            }
 
         }
     }
