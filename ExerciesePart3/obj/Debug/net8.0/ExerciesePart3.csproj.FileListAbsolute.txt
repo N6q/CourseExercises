@@ -1,0 +1,15 @@
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\bin\Debug\net8.0\ExerciesePart3.exe
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\bin\Debug\net8.0\ExerciesePart3.deps.json
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\bin\Debug\net8.0\ExerciesePart3.runtimeconfig.json
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\bin\Debug\net8.0\ExerciesePart3.dll
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\bin\Debug\net8.0\ExerciesePart3.pdb
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.AssemblyInfoInputs.cache
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.AssemblyInfo.cs
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.csproj.CoreCompileInputs.cache
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.sourcelink.json
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.dll
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\refint\ExerciesePart3.dll
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.pdb
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ExerciesePart3.genruntimeconfig.cache
+C:\Users\CodeLine\Desktop\CourseExercises\ExerciesePart3\obj\Debug\net8.0\ref\ExerciesePart3.dll
