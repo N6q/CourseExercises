@@ -1,4 +1,5 @@
 ﻿using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ExerciesePart3
 {
@@ -168,49 +169,126 @@ namespace ExerciesePart3
 
             /* -------------------------- 7. Merging Two Arrays -------------------*/
 
-            int NumberOfArrays;
-            
-            int InputNumber1;
-            int InputNumber2;
+            //int NumberOfArrays;
+            //int k;
+            //int InputNumber1;
+            //int InputNumber2;
 
 
-            Console.WriteLine("Enter Size of 1st Array and 2nd Array");
-            NumberOfArrays = int.Parse(Console.ReadLine());
-            int[] numbers1 = new int[NumberOfArrays];
+            //Console.WriteLine("Enter Size of 1st Array and 2nd Array");
+            //NumberOfArrays = int.Parse(Console.ReadLine());
+            //int[] numbers1 = new int[NumberOfArrays];
 
-            Console.WriteLine("Enter Numbers for First Array");
+            //Console.WriteLine("Enter Numbers for First Array");
 
-            for (int i = 0; i < numbers1.Length; i++)
-            {
-                InputNumber1 = int.Parse(Console.ReadLine());
-                numbers1[i] = InputNumber1;
-            }
-
-
-            int[] numbers2 = new int[NumberOfArrays];
-
-            Console.WriteLine("Enter Numbers for Secound Array");
-
-            for (int i = 0; i < numbers2.Length; i++)
-            {
-                InputNumber2 = int.Parse(Console.ReadLine());
-                numbers2[i] = InputNumber2;
-            }
+            //for (int i = 0; i < numbers1.Length; i++)
+            //{
+            //    InputNumber1 = int.Parse(Console.ReadLine());
+            //    numbers1[i] = InputNumber1;
+            //}
 
 
-            int[] mergedArray = numbers1.Concat(numbers2).ToArray();
+            //int[] numbers2 = new int[NumberOfArrays];
+
+            //Console.WriteLine("Enter Numbers for Secound Array");
+
+            //for (int i = 0; i < numbers2.Length; i++)
+            //{
+            //    InputNumber2 = int.Parse(Console.ReadLine());
+            //    numbers2[i] = InputNumber2;
+            //}
 
 
+            ////int[] mergedArray = numbers1.Concat(numbers2).ToArray();
 
-            Console.Write("New array: ");
+            //int[] mergedArray = new int[(numbers1.Length * 2)]; 
 
-            for (int i = 0; i < (mergedArray.Length); i++)
-            {
-                Console.Write(" "+mergedArray[i]);
+            //Console.Write("New array: ");
 
-            }
+
+            //for (int i = 0; i < numbers1.Length; i++)
+            //{
+            //    for ( k = (numbers1.Length+1 ); k < mergedArray.Length; k++)
+            //    {
+            //        mergedArray[i] = numbers1[i];
+            //        mergedArray[k] = numbers2[i];
+
+            //        Console.Write(mergedArray[i]);
+            //        Console.Write(mergedArray[k]);
+            //    }
+
+
+            //}
+
+
 
             /* -------------------------- 8. Remove Duplicates from an Array  -------------------*/
+
+
+            int NumberOfArray;
+            int InputNumber;
+
+            Console.WriteLine("Enter Number of Arrays");
+            NumberOfArray = int.Parse(Console.ReadLine());
+            int[] numbers = new int[NumberOfArray];
+
+            Console.WriteLine("Enter Numbers");
+
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                InputNumber = int.Parse(Console.ReadLine());
+                numbers[i] = InputNumber;
+
+
+            }
+            Array.Sort(numbers);
+
+            int[] mergedArray = new int[numbers.Length];
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+
+                if (numbers[i += 1] != numbers[i -= 1])
+                {
+                    for (int k = 0; k < numbers.Length; k++)
+                    {
+                        mergedArray[k] = numbers[i];
+                    }
+                }
+                else
+                {
+
+                }
+
+
+                Console.WriteLine(mergedArray[i]);
+
+            }
+
+
+
+            /* -------------------------- 9. Second Largest Number in an Array  -------------------*/
+
+
+            //int NumberOfArray;
+            //int InputNumber;
+
+
+            //Console.WriteLine("Enter Number of Arrays");
+            //NumberOfArray = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[NumberOfArray];
+
+            //Console.WriteLine("Enter Numbers");
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    InputNumber = int.Parse(Console.ReadLine());
+            //    numbers[i] = InputNumber;
+            //}
+            //Array.Sort(numbers);
+
+            //Console.WriteLine("The second-largest number is " + numbers[1]);
 
 
 

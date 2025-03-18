@@ -36,8 +36,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:16:14.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T06:16:14.863Z"
             },
             {
               "$type": "Document",
@@ -45,9 +44,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExerciesePart3\\Program.cs",
               "RelativeDocumentMoniker": "..\\ExerciesePart3\\Program.cs",
-              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExerciesePart3\\Program.cs*",
-              "RelativeToolTip": "..\\ExerciesePart3\\Program.cs*",
-              "ViewState": "AgIAALUAAAAAAAAAAAAAANcAAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExerciesePart3\\Program.cs",
+              "RelativeToolTip": "..\\ExerciesePart3\\Program.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAADwvwEBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T06:16:04.543Z",
               "EditorCaption": ""
@@ -62,8 +61,7 @@
               "RelativeToolTip": "..\\ExercisesPart2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T05:41:28.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T05:41:28.475Z"
             }
           ]
         }
