@@ -168,16 +168,19 @@
 
         public static void TopFrequentNumbers()
         {
-            List<int> numberL = new List<int>();
+            
 
             Console.WriteLine("Enter the number of elements in the list:");
             int count = int.Parse(Console.ReadLine());
 
+            // Create a list to store numbers
+            List<int> numbersL = new List<int>();
+            
             Console.WriteLine("Enter the numbers in the list:");
             for (int i = 0; i < count; i++)
             {
                 int number = int.Parse(Console.ReadLine());
-                numberL.Add(number);
+                numbersL.Add(number);
             }
 
             Console.WriteLine("Enter N to get Top N Frequent Numbers:");
@@ -187,9 +190,9 @@
             List<int> unique = new List<int>();
             List<int> freq = new List<int>();
 
-            for (int i = 0; i < numberL.Count; i++)
+            for (int i = 0; i < numbersL.Count; i++)
             {
-                int current = numberL[i];
+                int current = numbersL[i];
                 bool found = false;
 
                 for (int j = 0; j < unique.Count; j++)
