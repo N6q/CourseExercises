@@ -1,0 +1,15 @@
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\bin\Debug\net8.0\WarmUpTask.exe
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\bin\Debug\net8.0\WarmUpTask.deps.json
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\bin\Debug\net8.0\WarmUpTask.runtimeconfig.json
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\bin\Debug\net8.0\WarmUpTask.dll
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\bin\Debug\net8.0\WarmUpTask.pdb
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.AssemblyInfoInputs.cache
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.AssemblyInfo.cs
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.csproj.CoreCompileInputs.cache
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.sourcelink.json
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.dll
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\refint\WarmUpTask.dll
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.pdb
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\WarmUpTask.genruntimeconfig.cache
+C:\Users\CodeLine\Desktop\CourseExercises\WarmUpTask\obj\Debug\net8.0\ref\WarmUpTask.dll

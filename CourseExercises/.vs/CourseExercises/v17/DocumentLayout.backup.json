@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\CourseExercises\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{880B081A-702C-4DB6-AE22-B29DD8CC7F2A}|..\\WarmUpTask\\WarmUpTask.csproj|c:\\users\\codeline\\desktop\\courseexercises\\warmuptask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B1CBE09-4E6C-4497-B587-3135EDDD622D}|..\\ExerciesePart3\\ExerciesePart3.csproj|c:\\users\\codeline\\desktop\\courseexercises\\exerciesepart3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -13,21 +16,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\WarmUpTask\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WarmUpTask\\Program.cs",
+              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\WarmUpTask\\Program.cs",
+              "RelativeToolTip": "..\\WarmUpTask\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:28:40.241Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExerciesePart3\\Program.cs",
               "RelativeDocumentMoniker": "..\\ExerciesePart3\\Program.cs",
-              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExerciesePart3\\Program.cs*",
-              "RelativeToolTip": "..\\ExerciesePart3\\Program.cs*",
-              "ViewState": "AgIAAPwAAAAAAAAAAAAAAOYAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\CourseExercises\\ExerciesePart3\\Program.cs",
+              "RelativeToolTip": "..\\ExerciesePart3\\Program.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAYwGgBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T06:16:04.543Z",
               "EditorCaption": ""
