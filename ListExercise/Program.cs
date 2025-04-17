@@ -2,8 +2,8 @@
 {
     internal class Program
     {
-        
-        
+
+
         static void Main(string[] args)
         {
             StartSystem();
@@ -62,7 +62,7 @@
                 Console.WriteLine("║ 1. Top N Frequent Numbers                            ║");
                 Console.WriteLine("║ 2. Palindrome Filter                                 ║");
                 Console.WriteLine("║ 3. Shift List Elements                               ║");
-                Console.WriteLine("║ 4. Unique Words Extractor                            ║");              
+                Console.WriteLine("║ 4. Unique Words Extractor                            ║");
                 Console.WriteLine("║ 0. Exit Application                                  ║");
                 Console.WriteLine("║                                                      ║");
                 Console.WriteLine("╚══════════════════════════════════════════════════════╝");
@@ -128,7 +128,7 @@
 
 
                             break;
-                        
+
 
                         //exit application
                         case 0:
@@ -168,14 +168,14 @@
 
         public static void TopFrequentNumbers()
         {
-            
+
 
             Console.WriteLine("Enter the number of elements in the list:");
             int count = int.Parse(Console.ReadLine());
 
             // Create a list to store numbers
             List<int> numbersL = new List<int>();
-            
+
             Console.WriteLine("Enter the numbers in the list:");
             for (int i = 0; i < count; i++)
             {
@@ -242,12 +242,16 @@
 
         public static void FilterPalindromes()
         {
+            // Ask the user how many words they want to enter
             Console.WriteLine("Enter the number of words:");
             int count = int.Parse(Console.ReadLine());
 
+            // Create lists to store input words, palindromes, and non-palindromes
             List<string> words = new List<string>();
             List<string> palindromes = new List<string>();
+            List<string> nonPalindromes = new List<string>();
 
+            // Input words from the user
             Console.WriteLine("Enter the words:");
             for (int i = 0; i < count; i++)
             {
@@ -255,22 +259,30 @@
                 words.Add(word);
             }
 
+            // Check each word to see if it is a palindrome
             for (int i = 0; i < words.Count; i++)
             {
-                string original = words[i];
+                string original = words[i].ToLower();
                 string reversed = "";
 
+                // Reverse the word using a for loop
                 for (int j = original.Length - 1; j >= 0; j--)
                 {
                     reversed += original[j];
                 }
 
+                // Compare original and reversed
                 if (original == reversed)
                 {
-                    palindromes.Add(original);
+                    palindromes.Add(original); // It's a palindrome
+                }
+                else
+                {
+                    nonPalindromes.Add(original); // It's not a palindrome
                 }
             }
 
+            // Show palindromes if any are found
             if (palindromes.Count > 0)
             {
                 Console.WriteLine("\nPalindromes found:");
@@ -283,7 +295,19 @@
             {
                 Console.WriteLine("\nNo palindromes found.");
             }
+
+            // Show non-palindromes if any exist
+            if (nonPalindromes.Count > 0)
+            {
+                Console.WriteLine("\nNon-palindromes:");
+                for (int i = 0; i < nonPalindromes.Count; i++)
+                {
+                    Console.WriteLine(nonPalindromes[i]);
+                }
+            }
         }
+
+
 
 
         public static void ShiftListElements()
@@ -330,7 +354,7 @@
             Console.WriteLine(); // For clean output
         }
 
-        
+
 
 
         public static void ExtractUniqueWords()
@@ -348,13 +372,13 @@
                 paragraph = paragraph.Replace(punctuations[i], ' ');
             }
 
-            // Split paragraph into words
-            string[] words = paragraph.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            // Split paragraph into words and convert to List<string>
+            List<string> words = new List<string>(paragraph.Split(' ', StringSplitOptions.RemoveEmptyEntries));
 
             List<string> uniqueWords = new List<string>();
 
             // Add only unique words using for loops
-            for (int i = 0; i < words.Length; i++)
+            for (int i = 0; i < words.Count; i++)
             {
                 string word = words[i];
                 bool exists = false;
@@ -388,12 +412,12 @@
                 }
             }
 
+            // Display sorted unique words
             Console.WriteLine("\nUnique words (sorted):");
             for (int i = 0; i < uniqueWords.Count; i++)
             {
                 Console.WriteLine(uniqueWords[i]);
             }
         }
-
     }
 }
